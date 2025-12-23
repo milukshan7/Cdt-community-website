@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDT Community</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="intro">
+    <img src="logo.png" id="logo" alt="CDT Logo">
+  </div>
+
+  <div id="menu" hidden>
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('leaderboard')">Server Levels</button>
+    <button onclick="showPage('submit')">Submit</button>
+  </div>
+
+  <div id="pages">
+    <div id="home" class="page">Welcome to CDT Community!</div>
+    <div id="leaderboard" class="page" hidden>Leaderboard coming soon!</div>
+    <div id="submit" class="page" hidden>Submit your stats here!</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
